@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+ 
+  .contanier{
+
+  @apply max-w-none w-auto
+
+  }
+  .sidebar{
+    @apply bg-[#2D3B46] text-white
+  }
+.main{
+  @apply p-10
+}
+
+}
+.btn{
+  @apply w-1/2 h-12  text-black uppercase text-xl font-serif px-11 font-semibold
+  hover:text-yellow-400 hover:bg-black
+}
+
